@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">-->
+
+    <!--</group>-->
+    <item
+        android:id="@+id/multi"
+        android:icon="@drawable/multi"
+        android:title="All Photo" />
+
+    <item android:title="My Photo" >
+        <menu>
+            <item
+                android:id="@+id/all"
+                android:title="\t전체 보기" />
+            <item
+                android:id="@+id/food"
+                android:title="\t음식" />
+            <item
+                android:id="@+id/trip"
+                android:title="\t여행" />
+            <item
+                android:id="@+id/daily"
+                android:title="\t일상" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="설정" />
+
+</menu>

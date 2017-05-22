@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="80dp">
+
+            <EditText
+
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="ID"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:background="@drawable/backwithborder"
+                />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <EditText
+
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="PW"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:background="@drawable/backwithborder"
+
+                />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="33dp"
+            android:background="#00ff0000"
+            android:text="LOGIN >>"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/join"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="38dp"
+            android:background="#00ff0000"
+            android:text="JOIN >>"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/facebookbutton"
+            android:layout_marginTop="25dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

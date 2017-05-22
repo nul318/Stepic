@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:padding="2dp"
+             android:layout_width="55dp"
+             android:layout_height="55dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@id/amu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        android:background="@drawable/layout_round"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="5"
+        android:textAppearance="@style/amu_Bubble.TextAppearance.Light" />
+
+</FrameLayout>
